@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/tvIdBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID Barang"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvNamaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nama Barang"
+            android:layout_below="@id/tvIdBarang"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvJenisBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Barang"
+            android:textSize="15sp"
+            android:layout_below="@id/tvNamaBarang"
+            />
+        <TextView
+            android:id="@+id/tvMerekBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Merek"
+            android:textSize="15sp"
+            android:layout_below="@id/tvJenisBarang"
+            />
+
+        <TextView
+            android:id="@+id/tvStok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMerekBarang"
+            android:hint="Stok"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>
